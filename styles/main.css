@@ -48,3 +48,25 @@ body {
   font-weight: 600;
   line-height: 1.3;
 }
+
+/* ----VERSION TABLET Y DESKTOP ---- */
+
+@media all and (min-width: 756px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 101px;
+  }
+  .logo {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    bottom: 20px;
+    margin-top: 0px;
+  }
+  .menu {
+    position: absolute;
+    right: 10px;
+  }
+}
