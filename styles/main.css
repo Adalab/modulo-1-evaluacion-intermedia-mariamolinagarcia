@@ -1,10 +1,14 @@
+:root {
+  --color-corporate: #3cdbc0;
+}
+
 body {
-  background-color: #3cdbc0;
+  background-color: var(--color-corporate);
   font-family: "Rubik", sans-serif;
 }
 
 .header {
-  background-color: white;
+  background-color: #ffffff;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -31,6 +35,13 @@ body {
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 13px;
+}
+.menu-item a {
+  text-decoration: none;
+  color: #4a4a4a;
+}
+.menu-item a:hover {
+  color: var(--color-corporate);
 }
 
 .section {
