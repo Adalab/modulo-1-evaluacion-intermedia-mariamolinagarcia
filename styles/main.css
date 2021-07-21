@@ -1,3 +1,37 @@
 body {
+  background-color: #3cdbc0;
   font-family: "Rubik", sans-serif;
+}
+
+.header {
+  background-color: white;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+.logo {
+  width: 155px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nav {
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+.menu-item {
+  font-size: 16px;
+  color: #4a4a4a;
+  text-transform: uppercase;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 13px;
 }
